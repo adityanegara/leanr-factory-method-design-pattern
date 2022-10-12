@@ -1,0 +1,16 @@
+A) Definisi
+: Factory Method ialah design pattern
+creational yang menyediakan interface
+untuk membuat object dalam superclass, tetapi
+mengizinkan subclasses mengubah object yang yang akan dibuat.
+
+B) Kapan digunakan?
+: Gunakan ketika anda sering membuat object dengan property yang
+hampir serupa. 
+
+C) Analisis Employee
+: Sebelum kita menggunakan factor method design pattern.
+Ketika kita ingin membuat employee kita harus membuatnya dari
+awal. Sedangkan banyak Employee yang memiliki property yang sama, 
+yaitu staff dan manager. Dengan adanya class EmployeeFactory kita
+dapat membuat staff dan manager tanpa membuat ulang propertynya.
